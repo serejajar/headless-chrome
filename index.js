@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
     width: 1920,
     height: 1080,
   });
-  await page.goto('https://dev.tms42.com/');
+  await page.goto('https://google.com/');
   await page.screenshot({ path: 'example.png' });
   await page.pdf({ path: 'example.pdf' });
 
